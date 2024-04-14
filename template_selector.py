@@ -39,7 +39,7 @@ def main():
     if choice == "Tattoo Parlour":
         
         st.subheader("Tattoo Parlour")
-        tattoo_df = pd.read_csv('inkredible_tattoo_test')
+        tattoo_df = pd.read_csv('inkredible_tattoo_test.csv')
         st.dataframe(tattoo_df)
         tattoo_ad_editor_csv = template_retrieval.convert_df(tattoo_df)
         st.download_button("Press to Download",tattoo_ad_editor_csv,"tattooist_template.csv","text/csv",key='download-csv')
