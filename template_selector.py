@@ -28,10 +28,10 @@ def main():
         st.subheader("Main Menu")
         choice = st.selectbox("Menu List",menu)
         st.subheader("Set Budget")
-        budget = st.text_input("Enter skill")
+        budget = st.number_input("Enter skill")
         button_budget_clicked = st.button("OK")
         st.subheader("Set Max CPC")
-        max_cpc = st.text_input("Enter skill")
+        max_cpc = st.number_input("Enter skill")
         button_max_cpc_clicked = st.button("OK")
 
        
