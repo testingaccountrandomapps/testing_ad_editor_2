@@ -32,7 +32,7 @@ def main():
         button_budget_clicked = st.button("OK")
         st.subheader("Set Max CPC")
         max_cpc = st.number_input("Enter Max Cpc",key = "cpc")
-        button_max_cpc_click = st.button("OK")
+        button_max_cpc_clicked = st.button("OK")
 
        
     st.header("Ad editor template application 1.0")
