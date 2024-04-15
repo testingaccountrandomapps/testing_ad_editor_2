@@ -27,6 +27,13 @@ def main():
       #  url_search = st.text_input("//TODO Database URL")
         st.subheader("Main Menu")
         choice = st.selectbox("Menu List",menu)
+        st.subheader("Set Budget")
+        budget = st.text_input("Enter skill")
+        button_budget_clicked = st.button("OK")
+        st.subheader("Set Max CPC")
+        max_cpc = st.text_input("Enter skill")
+        button_max_cpc_clicked = st.button("OK")
+
        
     st.header("Ad editor template application 1.0")
 
