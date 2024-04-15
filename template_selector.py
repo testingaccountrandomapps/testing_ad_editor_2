@@ -32,7 +32,7 @@ def main():
       
         st.subheader("Set Max CPC")
         max_cpc = st.number_input("Enter Max Cpc",key = "cpc")
-     
+        st.write("Setting of budget and max cpc currently not functional.")
 
        
     st.header("Ad editor template application 1.0")
