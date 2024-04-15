@@ -29,10 +29,10 @@ def main():
         choice = st.selectbox("Menu List",menu)
         st.subheader("Set Budget")
         budget = st.number_input("Enter Budget",key="budget")
-        button_budget_clicked = st.button("OK")
+      
         st.subheader("Set Max CPC")
         max_cpc = st.number_input("Enter Max Cpc",key = "cpc")
-        button_max_cpc_clicked = st.button("OK")
+     
 
        
     st.header("Ad editor template application 1.0")
